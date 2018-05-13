@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//
+//  Created by khs125 on 29/08/15.
+//  Copyright (c) 2015 Anil Khanna. All rights reserved.
+//
+
+
+
+
+#ifndef F_PrefixHeader_pch
+#define F_PrefixHeader_pch
+
+// Global
+#import "StringConstants.h"
+#import "DietManager.h"
+
+#import "DietABaseViewController.h"
+#import "DietTabContainerBaseViewController.h"
+#import "JWDynamicLabel.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define Pop     [self.navigationController popViewControllerAnimated:YES];
+#define Tap     [self.view endEditing:YES];
+
+#define APP_DEL (AppDelegate *)[[UIApplication sharedApplication] delegate]
+
+#define SHOWALERT(title, msg) [[[UIAlertView alloc]initWithTitle:title message:msg delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show]
+
+#define SAVE_USER_DEFAULTS(VALUE,KEY) [[NSUserDefaults standardUserDefaults] setObject:VALUE forKey:KEY]; [[NSUserDefaults standardUserDefaults] synchronize]
+
+#define GET_USER_DEFAULTS(KEY) [[NSUserDefaults standardUserDefaults] objectForKey:KEY]
+
+
+
+#define isiPhone5       ([[UIScreen mainScreen] bounds].size.height == 568)?TRUE:FALSE
+#define isiPhone4       ([[UIScreen mainScreen] bounds].size.height == 480)?TRUE:FALSE
+#define isiPhone6       ([[UIScreen mainScreen] bounds].size.height == 667)?TRUE:FALSE
+#define isiPhone6plus   ([[UIScreen mainScreen] bounds].size.height == 736)?TRUE:FALSE
+#define isPhoneWidth320  ([[UIScreen mainScreen] bounds].size.width == 320)?TRUE:FALSE
+#define isPhoneWidth375  ([[UIScreen mainScreen] bounds].size.width == 375)?TRUE:FALSE
+#define isPhoneWidth414  ([[UIScreen mainScreen] bounds].size.width == 414)?TRUE:FALSE
+
+#endif

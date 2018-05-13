@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>menuList</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>HOME</string>
+			<key>image</key>
+			<string>home</string>
+			<key>index</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>COACHING</string>
+			<key>image</key>
+			<string>coaching</string>
+			<key>index</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BOOT CAMP</string>
+			<key>image</key>
+			<string>bootcamp</string>
+			<key>index</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HABIT BUILDER</string>
+			<key>image</key>
+			<string>habit</string>
+			<key>index</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PROGRESS</string>
+			<key>image</key>
+			<string>progress</string>
+			<key>index</key>
+			<string>4</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>COMMUNITY</string>
+			<key>image</key>
+			<string>community</string>
+			<key>index</key>
+			<string>5</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RESCUE CENTER</string>
+			<key>image</key>
+			<string>rescue</string>
+			<key>index</key>
+			<string>6</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SHOPPING LIST</string>
+			<key>image</key>
+			<string>shopping</string>
+			<key>index</key>
+			<string>7</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RECIPES</string>
+			<key>image</key>
+			<string>recipes</string>
+			<key>index</key>
+			<string>8</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LIFESTYLE HELPER</string>
+			<key>image</key>
+			<string>lifestyle</string>
+			<key>index</key>
+			<string>9</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>EXERCISE ZONE</string>
+			<key>image</key>
+			<string>execirse</string>
+			<key>index</key>
+			<string>10</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PERSONAL TIMER</string>
+			<key>image</key>
+			<string>timer</string>
+			<key>index</key>
+			<string>11</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>EXPERT CORNER</string>
+			<key>image</key>
+			<string>expert</string>
+			<key>index</key>
+			<string>12</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MEMBERSHIP</string>
+			<key>image</key>
+			<string>membership</string>
+			<key>index</key>
+			<string>13</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SETTINGS</string>
+			<key>image</key>
+			<string>setting</string>
+			<key>index</key>
+			<string>14</string>
+		</dict>
+	</array>
+</dict>
+</plist>
